@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1666856181427" createdUser="sysadmin" id="3dff0d7a:18418539674:-7ecc:-101664793:408339756" type="infrastructure_component_resource" updatedTimestamp="1666856181427" updatedUser="sysadmin" version="1.1">
+   <syncdetails compare="LOGICALHTTPSlocalhost:5443" lastSynced="1666856181427" sourceid="3dff0d7a:18418539674:-7ecc">
+      <sourcepath path="HTTPS"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="http_transport">
+      <recordingSettings colour="124,199,255"/>
+   </resourceConfig>
+</editableResource>

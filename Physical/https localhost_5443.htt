@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1666856181477" createdUser="sysadmin" id="3dff0d7a:18418539674:-7ecc:-707371975:1544155186" selfDescribing="https localhost:5443" type="http_transport" updatedTimestamp="1666856181477" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="PHYSICALHTTPSlocalhost:5443" lastSynced="1666856181477" sourceid="3dff0d7a:18418539674:-7ecc">
+      <sourcepath path="HTTPS"/>
+      <sourcepath path="localhost:5443"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!3d9a" credPreemptive="false" credType="0" credUser="" httpHost="localhost" httpNtlmDomain="" httpPort="5443" httpProxyHost="" httpProxyPassword="#com.ghc.1!9386" httpProxyPort="" httpProxyUsername="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" useSsl="true" version="4">
+         <kerberos Anon="false" CStyle="Username / Password" Conf="false" Custom="true" Enabled="false" Integ="false" MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+         <oauth clientassertion="" clientid="" clientsecret="" enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

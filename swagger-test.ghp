@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><_c buildID="I20200228_1557" certificateAuthority="KEY_1024_BITS" comments="Project created on October 27, 2022" creationVersion="10.0.2" domain="Booking System" extDocPrefix="" name="swagger-test" owner="sysadmin" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000184-1853-9532-0000-00fef5fe0d6e">
+   <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+   <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+   <serverSettings ghRepositoryURL="https://localhost:5443/RTCP" trustSource="INBUILT_CA" trustStorePath="">
+      <dbConnectionParameters maxConnections="5" poolName="DefaultPoolName">
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="" password="#com.ghc.1!240e" recordFilters="" schema="" url="" useSsl="false" user="">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!0ecc" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+            <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
+         </connectionParams>
+      </dbConnectionParameters>
+      <automationServer enabled="true" hostname="rtas.ibmdevops.com" port="443" projectId="92100" projectName="integration test demo" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!4361" trustStorePath=""/>
+   </serverSettings>
+   <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="eerkj5KL7PCtMmkdm2OE3f9dqMa1gOI2HzocynjSKq4=$tdrOAO+U4TzoHf/sUjeMwFH8naFp1rCuqlLo/Q2vEcc="/>
+</_c>
