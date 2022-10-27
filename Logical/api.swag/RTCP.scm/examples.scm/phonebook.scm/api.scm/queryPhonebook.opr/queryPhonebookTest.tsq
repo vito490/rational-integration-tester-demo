@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1666856846693" createdUser="sysadmin" id="3dff0d7a:18418539674:-7df3" type="test_resource" updatedTimestamp="1666858512781" updatedUser="sysadmin" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1666856846693" createdUser="sysadmin" id="3dff0d7a:18418539674:-7df3" type="test_resource" updatedTimestamp="1666862604691" updatedUser="sysadmin" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
@@ -142,7 +142,7 @@
                   </fieldActionGroup>
                   <_c coreTypeInt="7" coreTypeName="String" name="text" nodeFormatter="JSON.nodeformatter" sch="Text" type="12" version="1.2">
                      <fieldExpander fieldExpanderID="JSON.fieldexpander" fieldSchema="3dff0d7a:18418539674:-7ecc:-1028583081:-1551637993" fieldSchemaRoot="queryPhonebook_200[Object]"/>
-                     <contentTree>{"entries":[{"id":1,"title":"Mr","firstName":"Fred","lastName":"Jones","phoneNumber":"01962 000000"},{"id":2,"title":"Mrs","firstName":"Jane","lastName":"Doe","phoneNumber":"01962 000001"},{"id":3},{"id":4},{"id":5}]}<defaultActions>
+                     <contentTree>{"entries":[{"id":1,"title":"Mr","firstName":"Fred","lastName":"Jones","phoneNumber":"01962 000000"},{"id":2,"title":"Mrs","firstName":"Jane","lastName":"Doe","phoneNumber":"01962 000001"},{"id":3},{"id":4},{"id":5},{"id":6}]}<defaultActions>
                            <defaultMessageActions>
                               <fieldActionGroup>
                                  <fieldAction type="1">
@@ -230,6 +230,12 @@
                            </updateField>
                            <updateField path="/text/Object/entries/4/id">
                               <_c value="5"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/5">
+                              <_c name="5"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/5/id">
+                              <_c value="6"/>
                            </updateField>
                         </updates>
                      </contentTree>
