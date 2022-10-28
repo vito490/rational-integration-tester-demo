@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1666875855304" createdUser="sysadmin" id="-dd0dfd8:18418973478:-6690" selfDescribing="api.binance.com (18.165.246.143) - Windows Performance Monitor (default)" type="probe_resource" updatedTimestamp="1666875855304" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="-dd0dfd8:18418973478:-669c" probeID="ghviewer.plugin.perfmon">
+      <PerfMonDatasource configuration="default"/>
+   </resourceConfig>
+</editableResource>

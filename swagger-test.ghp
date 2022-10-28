@@ -9,7 +9,7 @@
             <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
          </connectionParams>
       </dbConnectionParameters>
-      <automationServer enabled="true" hostname="rtas.ibmdevops.com" port="443" projectId="92100" projectName="integration test demo" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!4361" trustStorePath=""/>
+      <automationServer enabled="true" hostname="rtas.ibmdevops.com" port="443" projectId="92100" projectName="integration test demo" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!95e3" trustStorePath=""/>
    </serverSettings>
    <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="eerkj5KL7PCtMmkdm2OE3f9dqMa1gOI2HzocynjSKq4=$tdrOAO+U4TzoHf/sUjeMwFH8naFp1rCuqlLo/Q2vEcc="/>
 </_c>

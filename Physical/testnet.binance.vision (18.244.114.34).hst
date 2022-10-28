@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1666875854292" createdUser="sysadmin" id="-dd0dfd8:18418973478:-669d" selfDescribing="testnet.binance.vision (18.244.114.34)" type="host_machine_resource" updatedTimestamp="1666875854292" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="18.244.114.34" user_host_name="testnet.binance.vision">
+      <roles>
+         <identity name="ssh" port="22"/>
+      </roles>
+   </resourceConfig>
+</editableResource>

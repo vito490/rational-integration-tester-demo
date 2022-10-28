@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1666875854293" createdUser="sysadmin" id="-dd0dfd8:18418973478:-669c" selfDescribing="api.binance.com (18.165.246.143)" type="host_machine_resource" updatedTimestamp="1666875854293" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="18.165.246.143" user_host_name="api.binance.com">
+      <roles>
+         <identity name="ssh" port="22"/>
+      </roles>
+   </resourceConfig>
+</editableResource>
