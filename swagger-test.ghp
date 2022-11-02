@@ -2,14 +2,15 @@
    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
    <serverSettings ghRepositoryURL="https://localhost:5443/RTCP" trustSource="INBUILT_CA" trustStorePath="">
-      <dbConnectionParameters maxConnections="5" poolName="DefaultPoolName">
-         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="" password="#com.ghc.1!240e" recordFilters="" schema="" url="" useSsl="false" user="">
-            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!0ecc" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
-            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+      <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!eed27E21129E4AC14464E343A2E77278117F55720CEF6A02" recordFilters="" url="jdbc:db2://localhost:50000/ritres" useSsl="false" user="rcldb2i1">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!277f" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="rcldb2i1" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
             <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
          </connectionParams>
       </dbConnectionParameters>
-      <automationServer enabled="true" hostname="rtas.ibmdevops.com" port="443" projectId="92100" projectName="integration test demo" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!95e3" trustStorePath=""/>
+      <automationServer enabled="true" hostname="rtas.ibmdevops.com" port="443" projectId="92100" projectName="integration test demo" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!05e9" trustStorePath=""/>
    </serverSettings>
    <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="eerkj5KL7PCtMmkdm2OE3f9dqMa1gOI2HzocynjSKq4=$tdrOAO+U4TzoHf/sUjeMwFH8naFp1rCuqlLo/Q2vEcc="/>
+   <resultPublishers disableAll="false"/>
 </_c>

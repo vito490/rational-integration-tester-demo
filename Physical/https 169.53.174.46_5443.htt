@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667400643480" createdUser="sysadmin" id="-637d6837:184380912a9:-6e68:555756724:1544155186" selfDescribing="https 169.53.174.46:5443" type="http_transport" updatedTimestamp="1667400643480" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="PHYSICALHTTPS169.53.174.46:5443" lastSynced="1667400643480" sourceid="-637d6837:184380912a9:-6e68">
+      <sourcepath path="HTTPS"/>
+      <sourcepath path="169.53.174.46:5443"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!0a14" credPreemptive="false" credType="0" credUser="" httpHost="169.53.174.46" httpNtlmDomain="" httpPort="5443" httpProxyHost="" httpProxyPassword="#com.ghc.1!ec41" httpProxyPort="" httpProxyUsername="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" useSsl="true" version="4">
+         <kerberos Anon="false" CStyle="Username / Password" Conf="false" Custom="true" Enabled="false" Integ="false" MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+         <oauth clientassertion="" clientid="" clientsecret="" enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>
