@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667400664168" createdUser="sysadmin" id="-637d6837:184380912a9:-6d4d" type="test_resource" updatedTimestamp="1667401803586" updatedUser="sysadmin" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667400664168" createdUser="sysadmin" id="-637d6837:184380912a9:-6d4d" type="test_resource" updatedTimestamp="1667402391678" updatedUser="sysadmin" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
@@ -149,7 +149,7 @@
                   </fieldActionGroup>
                   <_c coreTypeInt="7" coreTypeName="String" name="text" nodeFormatter="JSON.nodeformatter" sch="Text" type="12" version="1.2">
                      <fieldExpander fieldExpanderID="JSON.fieldexpander" fieldSchema="-637d6837:184380912a9:-6e68:-1028583081:-1551637993" fieldSchemaRoot="getEntry_200[Object]"/>
-                     <contentTree>{"id":0,"title":"","firstName":"","lastName":"","phoneNumber":"","":[]}<defaultActions>
+                     <contentTree>{"entries":[{"id":1,"title":"Mr","firstName":"Fred","lastName":"Jones","phoneNumber":"01962 000000"},{"id":2,"title":"Mrs","firstName":"Jane","lastName":"Doe","phoneNumber":"01962 000001"},{"id":3},{"id":4}]}<defaultActions>
                            <defaultMessageActions>
                               <fieldActionGroup>
                                  <fieldAction type="1">
@@ -186,28 +186,61 @@
                            <updateField path="/text/Object">
                               <_c assocdefid="getEntry_200[Object]"/>
                            </updateField>
-                           <updateField path="/text/Object/id">
-                              <_c optional="true"/>
-                           </updateField>
-                           <updateField path="/text/Object/title">
-                              <_c optional="true"/>
-                           </updateField>
-                           <updateField path="/text/Object/firstName">
-                              <_c optional="true"/>
-                           </updateField>
-                           <updateField path="/text/Object/lastName">
-                              <_c optional="true"/>
-                           </updateField>
-                           <updateField path="/text/Object/phoneNumber">
-                              <_c optional="true"/>
-                           </updateField>
-                           <setAction index="5" path="/text/Object/{}" replaceActionType="100" replaceOuterType="1">
+                           <setAction index="0" path="/text/Object/entries" replaceActionType="100" replaceOuterType="1">
                               <fieldAction type="1">
-                                 <fieldAction anyOrder="true" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                                 <fieldAction anyOrder="false" ignoreExtra="true" ignoreNonPresent="false" type="100"/>
                               </fieldAction>
                            </setAction>
-                           <updateField path="/text/Object/{}">
+                           <updateField path="/text/Object/entries">
                               <_c assocdefid="Array"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/0">
+                              <_c name="0"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/0/id">
+                              <_c value="1"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/0/title">
+                              <_c value="Mr"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/0/firstName">
+                              <_c value="Fred"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/0/lastName">
+                              <_c value="Jones"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/0/phoneNumber">
+                              <_c value="01962 000000"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/1">
+                              <_c name="1"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/1/id">
+                              <_c value="2"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/1/title">
+                              <_c value="Mrs"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/1/firstName">
+                              <_c value="Jane"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/1/lastName">
+                              <_c value="Doe"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/1/phoneNumber">
+                              <_c value="01962 000001"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/2">
+                              <_c name="2"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/2/id">
+                              <_c value="3"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/3">
+                              <_c name="3"/>
+                           </updateField>
+                           <updateField path="/text/Object/entries/3/id">
+                              <_c value="4"/>
                            </updateField>
                         </updates>
                      </contentTree>
