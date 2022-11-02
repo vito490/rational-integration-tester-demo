@@ -9,8 +9,13 @@
             <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
          </connectionParams>
       </dbConnectionParameters>
-      <automationServer enabled="true" hostname="rtas.ibmdevops.com" port="443" projectId="92100" projectName="integration test demo" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!05e9" trustStorePath=""/>
+      <automationServer enabled="true" hostname="rtas.ibmdevops.com" port="443" projectId="92100" projectName="integration test demo" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!a492" trustStorePath=""/>
    </serverSettings>
    <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="eerkj5KL7PCtMmkdm2OE3f9dqMa1gOI2HzocynjSKq4=$tdrOAO+U4TzoHf/sUjeMwFH8naFp1rCuqlLo/Q2vEcc="/>
    <resultPublishers disableAll="false"/>
+   <publishedResourceInfo>
+      <info domain="Booking System" serverUrl="https://localhost:5443/RTCP" vMajor="1" vMinor="0">
+         <resource id="-637d6837:184380912a9:-6d25"/>
+      </info>
+   </publishedResourceInfo>
 </_c>

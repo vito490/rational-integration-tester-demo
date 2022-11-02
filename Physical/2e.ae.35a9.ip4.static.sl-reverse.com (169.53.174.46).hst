@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667400643650" createdUser="sysadmin" id="-637d6837:184380912a9:-6dc7" selfDescribing="2e.ae.35a9.ip4.static.sl-reverse.com (169.53.174.46)" type="host_machine_resource" updatedTimestamp="1667400643650" updatedUser="sysadmin" version="1.0">
-   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-   <resourceConfig host_address="169.53.174.46" user_host_name="2e.ae.35a9.ip4.static.sl-reverse.com">
-      <roles>
-         <identity name="ssh" port="22"/>
-      </roles>
-   </resourceConfig>
-</editableResource>
