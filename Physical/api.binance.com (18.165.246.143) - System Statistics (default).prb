@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1666875855301" createdUser="sysadmin" id="-dd0dfd8:18418973478:-6692" selfDescribing="api.binance.com (18.165.246.143) - System Statistics (default)" type="probe_resource" updatedTimestamp="1666875855301" updatedUser="sysadmin" version="1.0">
-   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-   <resourceConfig defaultFlag="true" name="default" physicalResourceID="-dd0dfd8:18418973478:-669c" probeID="plugin.custom.SysStat">
-      <SysStatDatasource allProcesses="true" configuration="default"/>
-   </resourceConfig>
-</editableResource>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1666875704535" createdUser="sysadmin" id="-dd0dfd8:18418973478:-76cb" selfDescribing="bianceOpen - http localhost" type="http_transport" updatedTimestamp="1666875704535" updatedUser="sysadmin" version="1.0">
-   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-   <resourceConfig transportName="bianceOpen" transportTemplateName="HTTP"/>
-</editableResource>
