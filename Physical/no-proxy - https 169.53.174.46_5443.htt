@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667920633861" createdUser="sysadmin" id="7119d75f:18456d73488:-6590" selfDescribing="no-proxy - https 169.53.174.46:5443" type="http_transport" updatedTimestamp="1667927689449" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="no-proxy" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!15ef" credPreemptive="false" credType="0" credUser="" httpHost="169.53.174.46" httpNtlmDomain="" httpPort="5443" httpProxyHost="" httpProxyPassword="#com.ghc.1!3c44" httpProxyPort="" httpProxyUsername="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" recType="PROXY" useSsl="true" version="4">
+         <kerberos Anon="false" Conf="false" Custom="true" Enabled="false" Integ="false" KDC="" Loc="" MutAuth="false" Principal="" Pwd="#com.ghc.1!9c3e" Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
+         <oauth clientassertion="" clientid="" clientsecret="" enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+         <serverAuthentication>
+            <authenticationConfig enabled="false" realm="" type="1"/>
+            <authenticationConfig algorithm="" authParams="" domain="" enabled="false" nonce="false" opaque="" qop="" realm="" stale="" type="2"/>
+            <authenticationConfig enabled="false" type="3"/>
+            <authenticationConfig enabled="false" type="5"/>
+         </serverAuthentication>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

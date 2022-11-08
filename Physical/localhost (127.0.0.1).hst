@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1666856181886" createdUser="sysadmin" id="3dff0d7a:18418539674:-7e61" selfDescribing="localhost (127.0.0.1)" type="host_machine_resource" updatedTimestamp="1666856181886" updatedUser="sysadmin" version="1.0">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667925655684" createdUser="sysadmin" id="7119d75f:18456d73488:-5e41" selfDescribing="localhost (127.0.0.1)" type="host_machine_resource" updatedTimestamp="1667925655684" updatedUser="sysadmin" version="1.0">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig host_address="127.0.0.1" user_host_name="localhost">
       <roles>
