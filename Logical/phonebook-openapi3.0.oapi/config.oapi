@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667929342758" createdUser="sysadmin" id="7e17a639:18458297024:-7581" selfDescribing="phonebook-openapi3.0" syncSourceDetails="7119d75f:18456d73488:-67b5" type="openapi_definition" updatedTimestamp="1667929342764" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig locationtype="101">
+      <location>/home/sysadmin/Desktop/phonebook-openapi3.0.json</location>
+   </resourceConfig>
+</editableResource>

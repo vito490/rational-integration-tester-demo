@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667929343206" createdUser="sysadmin" id="7e17a639:18458297024:-7581:1361033970:-807255066" type="operation_resource" updatedTimestamp="1667929343206" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="-1156545112" lastSynced="1667929343206" sourceid="7e17a639:18458297024:-7581">
+      <sourcepath path="paths"/>
+      <sourcepath path="/{id}"/>
+      <sourcepath path="PUT"/>
+      <sourcepath path="requestBody"/>
+      <sourcepath path="content"/>
+      <sourcepath path="application/json"/>
+   </syncdetails>
+   <documentation>
+      <description value="update&#10;&#10;Updates an existing entry in the phonebook"/>
+   </documentation>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig avgTime="0" color="255,158,238" dependencies="7e17a639:18458297024:-7581:1984149904:408339756,7e17a639:18458297024:-7581:0:-332410441,7e17a639:18458297024:-7581:0:-1551637993" invokeDynamicFormatterID="http.text.message.type" invokeEndFormatterID="HTTP_Message" invokeEndTransportID="7e17a639:18458297024:-7581:1984149904:408339756" invokeFormatterID="HTTP_Message" invokeTransportID="7e17a639:18458297024:-7581:1984149904:408339756" maxTime="0" mepEndUsed="true" mepStartSchemaID="7e17a639:18458297024:-7581:0:-332410441" mepStartSchemaNodeFormatter="rest_nodeformatter" mepStartSchemaroot="PUT /{id}" mepType="IN_OUT" minTime="0" stubDynamicFormatterID="http.text.message.type" stubFormatterID="HTTP_Message" stubTransportID="7e17a639:18458297024:-7581:1984149904:408339756">
+      <mepStart id="body" schemaID="7e17a639:18458297024:-7581:0:-1551637993" schemaNodeFormatter="JSON.nodeformatter" schemaroot="file:///home/sysadmin/Desktop/phonebook-openapi3.0.json#/definitions/PhonebookEntry[Object]"/>
+      <invokeHeaderNode meTy="Message" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="String" name="MessageType" type="7" value="http.text.message.type" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="http.text.message.type" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="Method" type="7" value="PUT" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="PUT" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="URL" type="7" value="" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+            <fieldActionGroup>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+               </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="Version" type="7" value="" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                  </fieldAction>
+               </fieldActionGroup>
+               <_c meTy="String" name="Content-Type" type="7" value="application/json" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="0">
+                        <fieldAction exp="application/json" type="0"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </_c>
+            </_c>
+            <_c meTy="Boolean" name="followRedirects" type="8" value="true" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction exp="true" type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+         </_c>
+      </invokeHeaderNode>
+      <stubHeaderConfig>
+         <_c MessageType="http.text.message.type" Method="PUT" URL="/RTCP/examples/phonebook/api/{id}" consumerType="Participate" filterHeaders="true" filterMethod="true" filterResourcePath="true" template="true">
+            <filterHeadersList>
+               <header disabled="true" name="Content-Type" type="7" value="application/json"/>
+            </filterHeadersList>
+         </_c>
+      </stubHeaderConfig>
+   </resourceConfig>
+</editableResource>
