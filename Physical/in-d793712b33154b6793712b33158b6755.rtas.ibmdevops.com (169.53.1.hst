@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667930251908" createdUser="sysadmin" id="7e17a639:18458297024:-6ee5" selfDescribing="in-d793712b33154b6793712b33158b6755.rtas.ibmdevops.com (169.53.174.37)" type="host_machine_resource" updatedTimestamp="1667930251908" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="169.53.174.37" user_host_name="in-d793712b33154b6793712b33158b6755.rtas.ibmdevops.com">
+      <roles>
+         <identity name="ssh" port="22"/>
+      </roles>
+   </resourceConfig>
+</editableResource>
