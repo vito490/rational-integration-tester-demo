@@ -3,13 +3,13 @@
    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
    <serverSettings ghRepositoryURL="https://localhost:5443/RTCP" trustSource="INBUILT_CA" trustStorePath="">
       <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
-         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!135b4457E344A2E672701175552E0CB46A5F40B1214C7E40" recordFilters="" url="jdbc:db2://localhost:50000/ritres" user="rcldb2i1">
-            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!df9b" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!f22d12AF4ACE4469E346A2EE727C1178552D0CEC6A0340B3" recordFilters="" url="jdbc:db2://localhost:50000/ritres" user="rcldb2i1">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!da1a" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
             <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="rcldb2i1" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
             <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
          </connectionParams>
       </dbConnectionParameters>
-      <automationServer enabled="true" hostname="rtas.ibmdevops.com" port="443" projectId="92100" projectName="integration test demo" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!feb6" trustStorePath=""/>
+      <automationServer enabled="true" hostname="rtas.ibmdevops.com" port="443" projectId="92100" projectName="integration test demo" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!545e" trustStorePath=""/>
    </serverSettings>
    <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="eerkj5KL7PCtMmkdm2OE3f9dqMa1gOI2HzocynjSKq4=$tdrOAO+U4TzoHf/sUjeMwFH8naFp1rCuqlLo/Q2vEcc="/>
    <resultPublishers disableAll="false"/>

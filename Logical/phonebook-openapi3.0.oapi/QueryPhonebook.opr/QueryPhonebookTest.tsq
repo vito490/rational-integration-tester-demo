@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667929350349" createdUser="sysadmin" id="7e17a639:18458297024:-74ea" type="test_resource" updatedTimestamp="1667929350349" updatedUser="sysadmin" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1667929350349" createdUser="sysadmin" id="7e17a639:18458297024:-74ea" type="test_resource" updatedTimestamp="1667987942575" updatedUser="sysadmin" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
@@ -133,7 +133,7 @@
                      </_c>
                   </_c>
                </headerMessage>
-               <subconfig MessageType="http.text.message.type" _version="1.1" formatter="HTTP_Message" transport="7e17a639:18458297024:-7581:1984149904:408339756"/>
+               <subconfig MessageType="http.text.message.type" URL="" _version="1.1" allowSubPath="false" consumerType="Participate" filterHeaders="false" filterMethod="false" filterResourcePath="false" formatter="HTTP_Message" transport="7e17a639:18458297024:-7581:1984149904:408339756"/>
                <bodyMessage assocdefid="Text" name="Text" sch="Text" type="12" version="1.2">
                   <fieldActionGroup>
                      <fieldAction type="1">
@@ -174,12 +174,22 @@
                            <updateField path="/text/Object">
                               <_c assocdefid="file:///home/sysadmin/Desktop/phonebook-openapi3.0.json#/definitions/PhonebookEntries[Object]"/>
                            </updateField>
+                           <setAction index="0" path="/text/Object/entries" replaceActionType="100" replaceOuterType="1">
+                              <fieldAction type="1">
+                                 <fieldAction anyOrder="true" ignoreExtra="true" ignoreNonPresent="false" type="100"/>
+                              </fieldAction>
+                           </setAction>
                            <updateField path="/text/Object/entries">
                               <_c assocdefid="file:///home/sysadmin/Desktop/phonebook-openapi3.0.json#/definitions/PhonebookEntries/properties/entries[Array]" optional="true" type="12"/>
                            </updateField>
                            <updateField path="/text/Object/entries/0">
                               <_c name="0"/>
                            </updateField>
+                           <setAction index="0" path="/text/Object/entries/0/id" replaceActionType="0" replaceOuterType="1">
+                              <fieldAction type="1">
+                                 <fieldAction exp="[0-9]+" type="2"/>
+                              </fieldAction>
+                           </setAction>
                            <updateField path="/text/Object/entries/0/id">
                               <_c optional="true"/>
                            </updateField>
