@@ -2,7 +2,7 @@
 <editableResource createdTimestamp="1686137190044"
     createdUser="059298758" id="-37ac8789:188956a6eab:-79a7"
     references="-37ac8789:188956a6eab:-7a84:0:-332410441,-37ac8789:188956a6eab:-7a84:1984149904:408339756,-37ac8789:188956a6eab:-7a84:0:-1551637993"
-    type="test_resource" updatedTimestamp="1687860250362"
+    type="test_resource" updatedTimestamp="1687860622729"
     updatedUser="059298758" version="1.1">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -163,9 +163,9 @@
                 <loggingConfiguration debug="false"
                     resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
-                    name="&quot;Text&quot; utilizzando lo schema &quot;Text&quot; timeout 10000ms"
+                    name="&quot;Text&quot; utilizzando lo schema &quot;Text&quot; timeout 20000ms"
                     sendRequestID="-37ac8789:188956a6eab:-79a5"
-                    timeout="10000" timeoutTolerance="15000" transport="-37ac8789:188956a6eab:-7a84:1984149904:408339756">
+                    timeout="20000" timeoutTolerance="20000" transport="-37ac8789:188956a6eab:-7a84:1984149904:408339756">
                     <headerMessage assocdefid="Http Receive Reply"
                         meTy="Message" name="" sch="Http Receive Reply"
                         type="12" version="1.2">
