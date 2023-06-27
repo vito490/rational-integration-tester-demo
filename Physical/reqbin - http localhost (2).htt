@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1687877979048"
+    createdUser="059298758" id="62268da5:188fbfb2856:-6444"
+    selfDescribing="reqbin - http localhost" type="http_transport"
+    updatedTimestamp="1687877979048" updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="reqbin" transportTemplateName="HTTP"/>
+</editableResource>

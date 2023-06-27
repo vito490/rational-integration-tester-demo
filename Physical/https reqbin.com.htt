@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1687880891719"
+    createdUser="059298758"
+    id="62268da5:188fbfb2856:-5ff5:467081897:1544155186"
+    selfDescribing="https reqbin.com" type="http_transport"
+    updatedTimestamp="1687880891719" updatedUser="059298758" version="1.0">
+    <syncdetails compare="819370163" lastSynced="1687880891719" sourceid="62268da5:188fbfb2856:-5ff5">
+        <sourcepath path="servers"/>
+        <sourcepath path="url"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="Nessuno Stub disponibile che corrisponde alla richiesta"
+            clientConnectionsPerHost="100" credDomain="" credPassword=""
+            credPreemptive="false" credType="0" credUser=""
+            httpHost="reqbin.com" httpNtlmDomain="" httpPort="443"
+            httpProxyHost="" httpProxyPassword="" httpProxyPort=""
+            httpProxyUsername="" httpResourceRoot=""
+            httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            proxyType="http.proxy.default" useSsl="true" version="4">
+            <kerberos Anon="false" CStyle="Nome utente/Password"
+                Conf="false" Custom="true" Enabled="false" Integ="false"
+                MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth authURL="" clientassertion="" clientid=""
+                clientsecret="" enabled="false"
+                redirect_url="http://localhost:8080/callback"
+                refreshtoken="" scopes="" tokenendpoint=""/>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>

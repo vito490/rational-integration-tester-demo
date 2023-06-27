@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1687880892441"
+    createdUser="059298758" id="62268da5:188fbfb2856:-5f8f"
+    selfDescribing="reqbin.com (104.26.7.224)"
+    type="host_machine_resource" updatedTimestamp="1687880892441"
+    updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="104.26.7.224" user_host_name="reqbin.com">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

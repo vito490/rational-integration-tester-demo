@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1687880891241"
+    createdUser="059298758" id="62268da5:188fbfb2856:-5ff5"
+    selfDescribing="reqbin-openapi"
+    syncSourceDetails="7119d75f:18456d73488:-67b5"
+    type="openapi_definition" updatedTimestamp="1687880891263"
+    updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig locationtype="101">
+        <location>C:\progetti\demo\Rational\reqbin-openapi.yaml</location>
+    </resourceConfig>
+</editableResource>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1687880891687"
+    createdUser="059298758"
+    id="62268da5:188fbfb2856:-5ff5:349637132:-807255066"
+    type="operation_resource" updatedTimestamp="1687880891687"
+    updatedUser="059298758" version="1.0">
+    <syncdetails compare="530387794" lastSynced="1687880891687" sourceid="62268da5:188fbfb2856:-5ff5">
+        <sourcepath path="paths"/>
+        <sourcepath path="/get/json"/>
+        <sourcepath path="GET"/>
+    </syncdetails>
+    <documentation>
+        <description value="Get JSON data&#xa;&#xa;Retrieves JSON data from the server."/>
+    </documentation>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="90,170,250"
+        dependencies="62268da5:188fbfb2856:-5ff5:1984149904:408339756,62268da5:188fbfb2856:-5ff5:0:-332410441,62268da5:188fbfb2856:-5ff5:0:-1551637993"
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeEndFormatterID="HTTP_Message"
+        invokeEndTransportID="62268da5:188fbfb2856:-5ff5:1984149904:408339756"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="62268da5:188fbfb2856:-5ff5:1984149904:408339756"
+        maxTime="0"
+        mepEndSchemaID="62268da5:188fbfb2856:-5ff5:0:-1551637993"
+        mepEndSchemaNodeFormatter="JSON.nodeformatter"
+        mepEndSchemaroot="file:///C:/progetti/demo/Rational/reqbin-openapi.yaml#/definitions/GET ~1get~1json 200 application~1json[Object]"
+        mepEndUsed="true"
+        mepStartSchemaID="62268da5:188fbfb2856:-5ff5:0:-332410441"
+        mepStartSchemaNodeFormatter="rest_nodeformatter"
+        mepStartSchemaroot="GET /get/json" mepType="IN_OUT" minTime="0"
+        stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="62268da5:188fbfb2856:-5ff5:1984149904:408339756">
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="GET" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="GET" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7" value="" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                    <_c meTy="String" name="Accept" type="7"
+                        value="application/json" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction exp="application/json" type="0"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="GET"
+                URL="/echo/get/json" allowSubPath="false"
+                consumerType="Participate" filterHeaders="true"
+                filterMethod="true" filterResourcePath="true">
+                <filterHeadersList>
+                    <header disabled="true" name="Accept" type="7" value="application/json"/>
+                </filterHeadersList>
+            </_c>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1687880893488"
+    createdUser="059298758" id="62268da5:188fbfb2856:-5f85"
+    selfDescribing="reqbin.com (104.26.7.224) - JMX (valore predefinito)"
+    type="probe_resource" updatedTimestamp="1687880893488"
+    updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig defaultFlag="true" name="valore predefinito"
+        physicalResourceID="62268da5:188fbfb2856:-5f8f" probeID="ghviewer.plugin.jmx">
+        <JmxDatasource configurazione="valore predefinito"/>
+    </resourceConfig>
+</editableResource>

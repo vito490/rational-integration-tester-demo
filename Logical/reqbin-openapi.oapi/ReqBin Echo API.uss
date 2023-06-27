@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1687880891809"
+    createdUser="059298758" id="62268da5:188fbfb2856:-5ff5:0:-332410441"
+    selfDescribing="ReqBin Echo API" type="parameterized_url_schema"
+    updatedTimestamp="1687880891809" updatedUser="059298758" version="1.0">
+    <syncdetails compare="1687880891591" lastSynced="1687880891809" sourceid="62268da5:188fbfb2856:-5ff5"/>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="URL">
+        <schemaSourceConfig basePath="/echo" name="ReqBin Echo API">
+            <url templateName="GET /get/json">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="get"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="json"
+                    parameterName="" type="7"/>
+            </url>
+        </schemaSourceConfig>
+    </resourceConfig>
+</editableResource>

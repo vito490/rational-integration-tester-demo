@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <_c buildID="I20200228_1557" certificateAuthority="KEY_1024_BITS"
     comments="Project created on October 27, 2022"
-    creationVersion="10.0.2" extDocPrefix="" name="swagger-test"
-    owner="sysadmin" rulesCacheUri="%%PROJECT/ROOT%%Rules"
+    creationVersion="10.0.2" domain="default" extDocPrefix=""
+    name="swagger-test" owner="sysadmin"
+    rulesCacheUri="%%PROJECT/ROOT%%Rules"
     updateResultsDbOnItemChange="false" uuid="00000184-1853-9532-0000-00fef5fe0d6e">
     <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
     <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
@@ -13,7 +14,7 @@
                 dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
                 dpsOption="false" dpsPass="#com.ghc.1!223c" dpsUser=""
                 driverClass="" password="#com.ghc.1!73a5" schema=""
-                url="" user="">
+                url="" useSsl="false" user="">
                 <dpsSsl useSsl="false"/>
                 <stubSettings maxProcCallCount="10000"
                     maxResultSetRowCount="10000" maxRowCount="10000"
@@ -33,10 +34,10 @@
         <automationServer enabled="true" hostname="rtas.ibmdevops.com"
             port="443" projectId="92100"
             projectName="integration test demo" publishResults="true"
-            trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!1517" trustStorePath=""/>
+            trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!ee27" trustStorePath=""/>
     </serverSettings>
     <permissionsSettings ADtrustSource="NONE"
-        ADtrustStorePassword="#com.ghc.1!4e13" ADtrustStorePath=""
+        ADtrustStorePassword="#com.ghc.1!bbe4" ADtrustStorePath=""
         autoLogin="true" host=""
         permFactId="ldap.permissions.factory.none" port="389" pswd="eerkj5KL7PCtMmkdm2OE3f9dqMa1gOI2HzocynjSKq4=$tdrOAO+U4TzoHf/sUjeMwFH8naFp1rCuqlLo/Q2vEcc="/>
     <resultPublishers disableAll="false"/>
