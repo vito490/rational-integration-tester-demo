@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1686137174299"
+    createdUser="059298758" id="-37ac8789:188956a6eab:-7a84"
+    selfDescribing="httpbin-apis"
+    syncSourceDetails="7119d75f:18456d73488:-67b5"
+    type="openapi_definition" updatedTimestamp="1686137174346"
+    updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig locationtype="101">
+        <location>C:\Users\059298758\Desktop\httpbin-apis.yaml</location>
+    </resourceConfig>
+</editableResource>

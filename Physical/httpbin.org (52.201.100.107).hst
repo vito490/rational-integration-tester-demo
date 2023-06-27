@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1686137175665"
+    createdUser="059298758" id="-37ac8789:188956a6eab:-79fb"
+    selfDescribing="httpbin.org (52.201.100.107)"
+    type="host_machine_resource" updatedTimestamp="1686137175665"
+    updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="52.201.100.107" user_host_name="httpbin.org">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

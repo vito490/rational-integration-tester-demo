@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1686137175162"
+    createdUser="059298758"
+    id="-37ac8789:188956a6eab:-7a84:0:-332410441"
+    selfDescribing="httpbin API" type="parameterized_url_schema"
+    updatedTimestamp="1686137175162" updatedUser="059298758" version="1.0">
+    <syncdetails compare="1686137175068" lastSynced="1686137175162" sourceid="-37ac8789:188956a6eab:-7a84"/>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="URL">
+        <schemaSourceConfig basePath="" name="httpbin API">
+            <url templateName="GET /get">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="get"
+                    parameterName="" type="7"/>
+            </url>
+            <url templateName="POST /post">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="post"
+                    parameterName="" type="7"/>
+            </url>
+            <url templateName="PUT /put">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="put"
+                    parameterName="" type="7"/>
+            </url>
+            <url templateName="DELETE /delete">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="delete"
+                    parameterName="" type="7"/>
+            </url>
+        </schemaSourceConfig>
+    </resourceConfig>
+</editableResource>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1686137175131"
+    createdUser="059298758"
+    id="-37ac8789:188956a6eab:-7a84:1511552:-1834518822"
+    type="service_component_resource" updatedTimestamp="1686137175131"
+    updatedUser="059298758" version="1.1">
+    <syncdetails compare="-2029214819" lastSynced="1686137175131" sourceid="-37ac8789:188956a6eab:-7a84">
+        <sourcepath path="paths"/>
+        <sourcepath path="/put"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+</editableResource>
